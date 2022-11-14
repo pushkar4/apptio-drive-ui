@@ -1,0 +1,66 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "BlinkMacSystemFont";
+}
+
+button {
+  height: 1.8rem;
+  margin-top: 0rem;
+  padding: 0;
+}
+
+thead {
+  background-color: #f0f0f0;
+  height: 3.5rem;
+}
+
+tr {
+  height: 2.5rem;
+}
+
+.icon-set {
+  height: 2.7rem;
+  margin-right: 1rem;
+}
+
+.icon-set-vert {
+  width: 3rem;
+}
+
+.icon {
+  width: 3rem;
+}
+
+.left-bar-bg {
+  width: 3.2rem;
+  height: 100vh;
+}
+
+.top-bar-bg {
+  width: 100vw;
+  height: 8rem;
+}
+
+.apptio-drive {
+  height: 2.5rem;
+  margin-left: 5rem;
+  margin-top: 4rem;
+}
+
+.main-content {
+  margin-top: 10rem;
+}
+
+.filter-options {
+  height: 2.6rem;
+  width: 6rem;
+  margin-top: 0.1rem;
+  margin-right: 1rem;
+}
+
+.table-div {
+  border: 1px solid #AEB6BF;
+  height: 36rem;
+}
+
+
