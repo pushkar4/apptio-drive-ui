@@ -63,4 +63,14 @@ tr {
   height: 36rem;
 }
 
+.cloud-icon {
+  color: #0e6dfd;
+  font-size: 1.2rem;
+}
+
+.badge {
+  font-size: 0.8rem;
+  font-weight: 1;
+}
+
 
