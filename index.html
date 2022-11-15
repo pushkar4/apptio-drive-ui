@@ -22,9 +22,9 @@
   <body>
 
     <div class="position-static">
-      <div class="position-absolute top-0 start-0"><img class="top-bar-bg" src="img/top-bar-bg.png"></div>      
-      <div class="position-absolute top-0"><img class="apptio-drive" src="img/apptio-drive.png"></div>      
-      <div class="position-absolute top-0 start-0"><img class="left-bar-bg" src="img/left-bar-bg.png"></div>      
+      <div class="position-absolute top-0 start-0"><img class="top-bar-bg" src="img/top-bar-bg.png"></div>
+      <div class="position-absolute top-0"><img class="apptio-drive" src="img/apptio-drive.png"></div>
+      <div class="position-absolute top-0 start-0"><img class="left-bar-bg" src="img/left-bar-bg.png"></div>
       <div class="position-absolute top-0 end-0"><img class="icon-set" src="img/user-options.png"></div>
       <div class="position-absolute top-0 start-0"><img class="icon-set-vert" src="img/left-bar.png"></div>
       <div class="position-absolute start-0 bottom-0"><img class="icon" src="img/logout.png"></div>
@@ -41,75 +41,75 @@
                 <thead>
                   <tr>
                     <td class="align-middle"><input class="form-check-input" type="checkbox"></td>
-                    <td class="align-middle">File Name</td>
-                    <td class="align-middle">Size</td>
-                    <td class="align-middle">Type</td>
-                    <td class="align-middle">Tags</td>
-                    <td class="align-middle">Status</td>
-                    <td class="align-middle">Upload Date</td>
-                    <td class="align-middle">Action</td>
+                    <td class="align-middle heading">File Name</td>
+                    <td class="align-middle heading"><span class="line">|</span> Size</td>
+                    <td class="align-middle heading"><span class="line">|</span> Type</td>
+                    <td class="align-middle heading"><span class="line">|</span> Tags</td>
+                    <td class="align-middle heading"><span class="line">|</span> Status</td>
+                    <td class="align-middle heading"><span class="line">|</span> Upload Date</td>
+                    <td class="align-middle heading"><span class="line">|</span> Action</td>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td class="align-middle"><input class="form-check-input" type="checkbox"></td>
-                    <td class="align-middle">AWS_Sept22.pdf</td>
-                    <td class="align-middle">38 KB</td>
-                    <td class="align-middle">PDF</td>
-                    <td class="align-middle"><span class="badge bg-primary">Invoice</span></td>
-                    <td class="align-middle"><i class="bi bi-cloud-check-fill cloud-icon"></i>&nbsp;&nbsp;&nbsp;Processed</td>
-                    <td class="align-middle">15/11/2022</td>
+                    <td class="align-middle table-col">AWS_Sept22.pdf</td>
+                    <td class="align-middle table-col">38 KB</td>
+                    <td class="align-middle table-col">PDF</td>
+                    <td class="align-middle table-col"><span class="badge bg-primary">Invoice</span></td>
+                    <td class="align-middle table-col"><i class="bi bi-cloud-check-fill cloud-icon"></i>&nbsp;&nbsp;&nbsp;Processed</td>
+                    <td class="align-middle table-col">15/11/2022</td>
+                    <td class="align-middle table-col"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
+                  </tr>
+                  <tr>
+                    <td class="align-middle"><input class="form-check-input" type="checkbox"></td>
+                    <td class="align-middle table-col">AWS_Oct22.pdf</td>
+                    <td class="align-middle table-col">40 KB</td>
+                    <td class="align-middle table-col">PDF</td>
+                    <td class="align-middle table-col"><span class="badge bg-primary">Invoice</span></td>
+                    <td class="align-middle table-col"><i class="bi bi-cloud-check-fill cloud-icon"></i>&nbsp;&nbsp;&nbsp;Processed</td>
+                    <td class="align-middle table-col">15/11/2022</td>
                     <td class="align-middle"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
                   </tr>
                   <tr>
                     <td class="align-middle"><input class="form-check-input" type="checkbox"></td>
-                    <td class="align-middle">AWS_Oct22.pdf</td>
-                    <td class="align-middle">40 KB</td>
-                    <td class="align-middle">PDF</td>
-                    <td class="align-middle"><span class="badge bg-primary">Invoice</span></td>
-                    <td class="align-middle"><i class="bi bi-cloud-check-fill cloud-icon"></i>&nbsp;&nbsp;&nbsp;Processed</td>
-                    <td class="align-middle">15/11/2022</td>
-                    <td class="align-middle"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
+                    <td class="align-middle table-col">Azure_Oct22.jpg</td>
+                    <td class="align-middle table-col">52 KB</td>
+                    <td class="align-middle table-col">OCR</td>
+                    <td class="align-middle table-col"><span class="badge bg-primary">Invoice</span></td>
+                    <td class="align-middle table-col"><div class="spinner-grow spinner-grow-sm text-primary" role="status"><span class="visually-hidden"></span></div>&nbsp;&nbsp;&nbsp;Queued...</td>
+                    <td class="align-middle table-col">15/11/2022</td>
+                    <td class="align-middle table-col"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
                   </tr>
                   <tr>
                     <td class="align-middle"><input class="form-check-input" type="checkbox"></td>
-                    <td class="align-middle">Azure_Oct22.jpg</td>
-                    <td class="align-middle">52 KB</td>
-                    <td class="align-middle">OCR</td>
-                    <td class="align-middle"><span class="badge bg-primary">Invoice</span></td>
-                    <td class="align-middle"><div class="spinner-grow spinner-grow-sm text-primary" role="status"><span class="visually-hidden"></span></div>&nbsp;&nbsp;&nbsp;Queued...</td>
-                    <td class="align-middle">15/11/2022</td>
-                    <td class="align-middle"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
+                    <td class="align-middle table-col">GCP_Oct22.jpg</td>
+                    <td class="align-middle table-col">26 KB</td>
+                    <td class="align-middle table-col">OCR</td>
+                    <td class="align-middle table-col"><span class="badge bg-primary">Invoice</span></td>
+                    <td class="align-middle table-col"><div class="spinner-border spinner-border-sm text-primary" role="status"><span class="visually-hidden">Loading...</span></div>&nbsp;&nbsp;&nbsp;Processing...</td>
+                    <td class="align-middle table-col">15/11/2022</td>
+                    <td class="align-middle table-col"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
                   </tr>
                   <tr>
                     <td class="align-middle"><input class="form-check-input" type="checkbox"></td>
-                    <td class="align-middle">GCP_Oct22.jpg</td>
-                    <td class="align-middle">26 KB</td>
-                    <td class="align-middle">OCR</td>
-                    <td class="align-middle"><span class="badge bg-primary">Invoice</span></td>
-                    <td class="align-middle"><div class="spinner-border spinner-border-sm text-primary" role="status"><span class="visually-hidden">Loading...</span></div>&nbsp;&nbsp;&nbsp;Processing...</td>
-                    <td class="align-middle">15/11/2022</td>
-                    <td class="align-middle"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
+                    <td class="align-middle table-col">Lineitems.xlsx</td>
+                    <td class="align-middle table-col">500 MB</td>
+                    <td class="align-middle table-col">CSV</td>
+                    <td class="align-middle table-col"><span class="badge bg-success">Asset</span></td>
+                    <td class="align-middle table-col"><i class="bi bi-cloud-check-fill cloud-icon"></i>&nbsp;&nbsp;&nbsp;Processed</td>
+                    <td class="align-middle table-col">15/11/2022</td>
+                    <td class="align-middle table-col"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
                   </tr>
                   <tr>
                     <td class="align-middle"><input class="form-check-input" type="checkbox"></td>
-                    <td class="align-middle">Lineitems.xlsx</td>
-                    <td class="align-middle">500 MB</td>
-                    <td class="align-middle">CSV</td>
-                    <td class="align-middle"><span class="badge bg-success">Asset</span></td>
-                    <td class="align-middle"><i class="bi bi-cloud-check-fill cloud-icon"></i>&nbsp;&nbsp;&nbsp;Processed</td>
-                    <td class="align-middle">15/11/2022</td>
-                    <td class="align-middle"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
-                  </tr>
-                  <tr>
-                    <td class="align-middle"><input class="form-check-input" type="checkbox"></td>
-                    <td class="align-middle">50kLineitems.csv</td>
-                    <td class="align-middle">2 GB</td>
-                    <td class="align-middle">CSV</td>
-                    <td class="align-middle"><span class="badge bg-danger">Labor</span></td>
-                    <td class="align-middle"><div class="spinner-border spinner-border-sm text-primary" role="status"><span class="visually-hidden"></span></div>&nbsp;&nbsp;&nbsp;Processing Chunks...</td>
-                    <td class="align-middle">15/11/2022</td>
-                    <td class="align-middle"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
+                    <td class="align-middle table-col">50kLineitems.csv</td>
+                    <td class="align-middle table-col">2 GB</td>
+                    <td class="align-middle table-col">CSV</td>
+                    <td class="align-middle table-col"><span class="badge bg-danger">Labor</span></td>
+                    <td class="align-middle table-col"><div class="spinner-border spinner-border-sm text-primary" role="status"><span class="visually-hidden"></span></div>&nbsp;&nbsp;&nbsp;Processing Chunks...</td>
+                    <td class="align-middle table-col">15/11/2022</td>
+                    <td class="align-middle table-col"><button type="button" class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button></td>
                   </tr>
                 </tbody>
               </table>

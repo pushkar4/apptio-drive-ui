@@ -1,6 +1,14 @@
 body {
   background-color: #f0f0f0;
   font-family: "BlinkMacSystemFont";
+  overflow: hidden;
+}
+
+.rounded {
+  width: 91.5rem;
+  margin-left: -4rem;
+  margin-top: -1.3rem;
+  height: 40rem;
 }
 
 button {
@@ -19,20 +27,25 @@ tr {
 }
 
 .icon-set {
-  height: 2.7rem;
-  margin-right: 1rem;
+  height: 1.8rem;
+  margin-right: 1.2rem;
+  margin-top: 0.4rem;
+  cursor: pointer;
 }
 
 .icon-set-vert {
-  width: 3rem;
+  width: 2.4rem;
+  cursor: pointer;
 }
 
 .icon {
-  width: 3rem;
+  width: 2.4rem;
+  height: 3rem;
+  cursor: pointer;
 }
 
 .left-bar-bg {
-  width: 3.2rem;
+  width: 2.5rem;
   height: 100vh;
 }
 
@@ -42,9 +55,9 @@ tr {
 }
 
 .apptio-drive {
-  height: 2.5rem;
-  margin-left: 5rem;
-  margin-top: 4rem;
+  height: 2rem;
+  margin-left: 3.6rem;
+  margin-top: 5rem;
 }
 
 .main-content {
@@ -52,15 +65,16 @@ tr {
 }
 
 .filter-options {
-  height: 2.6rem;
-  width: 6rem;
-  margin-top: 0.1rem;
-  margin-right: 1rem;
+  height: 2rem;
+  width: 4.8rem;
+  margin-top: -0.5rem;
+  cursor: pointer;
 }
 
 .table-div {
   border: 1px solid #AEB6BF;
   height: 36rem;
+  border-radius: 0.3%;
 }
 
 .cloud-icon {
@@ -73,4 +87,42 @@ tr {
   font-weight: 1;
 }
 
+.card-body {
+  margin-top: -0.5rem;
+  padding: 1rem 0rem;
+}
 
+.form-check-input {
+  cursor: pointer;
+}
+
+.align-middle {
+  vertical-align: middle!important;
+}
+
+.table-col {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.heading {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.form-check-input {
+  border-radius: 0em;
+  width: 0.9em;
+  height: 0.9em;
+  border: 1.8px solid #817f7f;
+}
+
+.form-check-input[type=checkbox] {
+  border-radius: 0em;
+}
+
+.line{
+  color: #dfdddd;
+  position: absolute;
+  margin-left: -1.2rem;
+}
