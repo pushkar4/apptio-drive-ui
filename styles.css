@@ -100,6 +100,7 @@ tr {
   vertical-align: middle!important;
 }
 
+/*<<<<<<< Updated upstream*/
 .table-col {
   font-size: 13px;
   font-weight: 500;
@@ -125,4 +126,48 @@ tr {
   color: #dfdddd;
   position: absolute;
   margin-left: -1.2rem;
+}
+
+.table-col {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.heading {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.form-check-input {
+  border-radius: 0em;
+  width: 0.9em;
+  height: 0.9em;
+  border: 1.8px solid #817f7f;
+}
+
+.form-check-input[type=checkbox] {
+  border-radius: 0em;
+}
+
+.line {
+  color: #dfdddd;
+  position: absolute;
+  margin-left: -1.2rem;
+}
+
+.child-list {
+  cursor: pointer;
+  margin-left: -1.5%;
+  position: absolute;
+  font-size: 0.8rem;
+}
+
+/* added using js */
+.sm-table-col {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.icon-style {
+  color: #0026ffcc;
 }
